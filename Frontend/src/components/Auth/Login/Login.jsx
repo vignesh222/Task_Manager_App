@@ -17,7 +17,10 @@ const Login = () => {
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  console.log('res')
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4958f666070d65c030ef5904a7c5a0f29c3fa77
   useEffect(() => {
     console.log('Loading state changed:', loading);
   }, [loading]);
